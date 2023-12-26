@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link href="/public/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-lime-100 flex flex-col">
+    <header class="flex justify-center">
+      <h1 class="font-playfair font-bold text-2xl pt-5 text-lime-500">
+        BMI Calculator
+      </h1>
+    </header>
+
+    <div class="max-w-sm rounded shadow-lg m-5 bg-lime-500">
+      <img
+        class="w-full"
+        src="./images/body-mass-index-image.jpg"
+        alt="body-mass-index-image"
+      />
+      <div class="px-6 py-4">
+        <div class="font-bold text-lg mb-2 text-lime-100 pb-4">
+          Body mass index (BMI) is a measure of body fat based on height and
+          weight that applies to adult men and women.
+        </div>
+        <div class="pb-4 text-lime-100">
+          <label>Enter weight in kilograms</label>
+          <input type="number" class="block rounded-md border-0 m-2 w-auto" />
+        </div>
+        <div class="pb-4 text-lime-100">
+          <label>Enter height in centimeters</label>
+          <input type="number" class="block rounded-md border-0 m-2 w-auto" />
+        </div>
+        <div>
+          <button
+            class="bg-transparent hover:bg-red-500 text-lime-100 font-semibold hover:text-white py-2 px-4 border border-lime-100 hover:border-transparent rounded"
+          >
+            Calculate
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+  </body>
+</html>
