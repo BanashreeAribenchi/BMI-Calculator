@@ -7,7 +7,7 @@ This simple BMI (Body Mass Index) calculator is built using vanilla JavaScript a
 * Clean and responsive UI using Tailwind CSS.
 
 ## Demo
-Check out the live demo here.
+Check out the live demo [here](https://658de09764ff8c2d4a499d02--incredible-pie-cdbd41.netlify.app/)
 
 ## Usage
 1.Enter your height in centimeters.
