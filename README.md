@@ -1,6 +1,8 @@
 # BMI-Calculator
 This simple BMI (Body Mass Index) calculator is built using vanilla JavaScript and styled with Tailwind CSS. It allows users to input their height and weight, and it calculates and displays their BMI along with a corresponding BMI category message.
 
+![image](https://github.com/BanashreeAribenchi/BMI-Calculator/assets/132400958/457359cc-82cf-4d58-a5e8-9c62f0beecbc)
+
 ## Features
 * Calculate BMI based on height and weight inputs.
 * Display BMI result.
